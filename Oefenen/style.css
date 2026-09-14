@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(161, 152, 170);
+}
+.odd {
+    color: blue;
+}
+.even {
+    color: red
+    
+}
