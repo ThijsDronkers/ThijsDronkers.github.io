@@ -9,3 +9,13 @@ header {
     text-align: center;
     
 }
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+header a {
+    color: black;
+}
