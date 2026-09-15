@@ -1,0 +1,18 @@
+body{
+    margin: 0px;
+}
+.box{
+    border: 5px solid;
+    font-size: 5em;
+    width: 250px;
+    heigth: 250px;
+    margin: 30px;
+
+}
+#box1{
+    background-color: blue;
+    margin-left: auto;
+}
+#box2{
+    background-color: red;
+}
