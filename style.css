@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: white;
+    background-color: tan;
     margin: 0px;
     display: flex;
     flex-direction: column;
@@ -85,7 +85,7 @@ article {
     min-height: 150px;
     padding: 20px;
     margin: 10px;
-    background-color: white;
+    background-color: tan;
     border: 2px solid black;
     box-shadow: 5px 5px black;
     vertical-align: top;
