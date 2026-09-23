@@ -111,16 +111,21 @@ footer {
     text-align: center;
 }
 @media screen and (max-width:768px) {
-    aside, article, footer {
+    aside, section, article, footer {
         width: 100%;
+        float: none;
     }
-    .project-grid {
-        grid-template-columns: 1fr;
-        padding: 20px;
+    nav {
+        flex-wrap: wrap;
+        gap: 15px;
     }
-    .blog-box {
+    .project-box, .blog-box {
+        display: block;
         width: 100%;
         margin: 10px 0;
+    }
+    .project-grid, .blog-grid {
+        padding: 20px;
     }
 }
 #button1 {
