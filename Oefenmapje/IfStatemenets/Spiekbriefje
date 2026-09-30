@@ -1,0 +1,8 @@
+
+
+// = assignment operators
+// == comparison operator (compare if values are equal)
+// === comparison operator (compare if values and types are equal)
+
+// != comparison operator (compare if values are not equal)
+// !== strict inequality operator (compare if values and types are not equal)
