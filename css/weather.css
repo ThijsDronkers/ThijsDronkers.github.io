@@ -50,16 +50,6 @@
     outline-offset: 3px;
 }
 
-.weather-error {
-    padding: 12px;
-    border-left: 4px solid #365b43;
-    background-color: #eef3ef;
-}
-
-.weather-error {
-    border-color: #8b0000;
-    color: #650000;
-}
 
 .weather-result {
     margin-top: 20px;
@@ -78,6 +68,10 @@
 }
 
 .weather-current strong {
+    font-size: 2rem;
+}
+
+.weather-current span {
     font-size: 2rem;
 }
 
