@@ -62,6 +62,79 @@ article {
     padding: 10px;
 }
 
+.social-section {
+    clear: both;
+    width: 100%;
+    max-width: 720px;
+    margin: 24px auto 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.home-social-section {
+    clear: none;
+    float: left;
+    width: 30%;
+    max-width: none;
+    margin: 0;
+    padding: 10px;
+}
+
+.social-section h2 {
+    margin-top: 0;
+}
+
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+.social-link {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 48px;
+    width: 124px;
+    padding: 10px 30px;
+    border: 2px solid transparent;
+    color: white;
+    font: inherit;
+    text-align: center;
+    text-decoration: none;
+}
+
+.social-link img {
+    position: absolute;
+    left: 4px;
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.social-linkedin {
+    background-color: #0A66C2;
+}
+
+.social-youtube {
+    background-color: #D90000;
+}
+
+.social-github {
+    background-color: #24292F;
+}
+
+.social-link:hover {
+    filter: brightness(0.88);
+}
+
+.social-link:focus-visible {
+    outline: 3px solid black;
+    outline-offset: 3px;
+}
+
 footer {
     display: block;
     clear: both;
@@ -94,5 +167,26 @@ footer {
     .project-grid,
     .blog-grid {
         padding: 20px;
+    }
+
+    .home-social-section {
+        width: 100%;
+        float: none;
+    }
+
+    .home-social-section .social-links {
+        gap: 8px;
+    }
+
+    .home-social-section .social-link {
+        width: 110px;
+        padding: 8px 24px;
+        font-size: 0.9rem;
+    }
+
+    .home-social-section .social-link img {
+        left: 4px;
+        width: 20px;
+        height: 20px;
     }
 }

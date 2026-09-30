@@ -1,8 +1,8 @@
 const projects = [
-	{ title: "Project 1", description: "A - Dit is project 1." },
-	{ title: "Project 2", description: "B - Dit is project 2." },
-	{ title: "Project 3", description: "C - Dit is project 3." },
-	{ title: "Project 4", description: "D - Dit is project 4." }
+	{ title: "A - Project 1", description: "Dit is project 1." },
+	{ title: "B - Project 2", description: "Dit is project 2." },
+	{ title: "C - Project 3", description: "Dit is project 3." },
+	{ title: "D - Project 4", description: "Dit is project 4." }
 ];
 
 const projectList = document.querySelector("#project-list");
