@@ -3,7 +3,8 @@
 }
 
 body {
-    background-color: #DCE8DF;
+    background-color: #B7CDBB;
+    color: #17130A;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -15,14 +16,16 @@ main {
 }
 
 header {
-    background-color: #B7CDBB;
+    background-color: #D4AF37;
+    color: #17130A;
     text-align: center;
     padding: 10px;
 }
 
 nav {
     margin: 0;
-    background-color: #B7CDBB;
+    background-color: #D4AF37;
+    color: #17130A;
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -139,7 +142,8 @@ footer {
     display: block;
     clear: both;
     margin-top: auto;
-    background: #B7CDBB;
+    background: #D4AF37;
+    color: #17130A;
     text-align: center;
 }
 
