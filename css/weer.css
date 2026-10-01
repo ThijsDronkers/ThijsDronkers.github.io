@@ -29,13 +29,38 @@
     width: 100%;
     min-width: 0;
     padding: 10px;
+    border: 2px solid #333;
+    border-radius: 2px;
+    background-color: white;
+    color: black;
     font: inherit;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.weather-search input:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: #52735a;
+}
+
+.weather-search input::-webkit-search-cancel-button {
+    display: none;
+    -webkit-appearance: none;
+    appearance: none;
 }
 
 .weather-search button {
     padding: 10px 16px;
     font: inherit;
     font-weight: bold;
+}
+
+.weather-result {
+    float: none;
+    width: 100%;
+    max-width: 520px;
+    margin: 16px auto;
 }
 
 .weather-details {
