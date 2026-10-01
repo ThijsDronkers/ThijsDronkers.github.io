@@ -1,0 +1,16 @@
+.weather-section {
+    clear: both;
+    float: none;
+    width: 100%;
+    max-width: 720px;
+    margin: 24px auto;
+    text-align: center;
+}
+
+.weather-details {
+    margin: 0;
+}
+
+.weather-details dd {
+    margin: 4px 0 0;
+}
