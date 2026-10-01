@@ -46,19 +46,6 @@
     font-weight: bold;
 }
 
-.contact-error-summary {
-    margin: 16px 0;
-    padding: 12px;
-    border: 3px solid #8b0000;
-    background-color: #fff;
-    color: #650000;
-}
-
-.contact-error-summary:focus {
-    outline: 3px solid black;
-    outline-offset: 3px;
-}
-
 .contact-section button[type="submit"] {
     padding: 10px 16px;
     border: 2px solid black;
@@ -72,8 +59,16 @@
 .contact-section button[type="submit"]:focus-visible,
 .contact-field input:focus-visible,
 .contact-field textarea:focus-visible {
-    outline: 3px solid black;
-    outline-offset: 3px;
+    outline: none;
+}
+
+.contact-field input:focus-visible,
+.contact-field textarea:focus-visible {
+    border-color: #52735a;
+}
+
+.contact-section button[type="submit"]:focus-visible {
+    background-color: #93b29a;
 }
 
 .contact-send-notice {

@@ -7,10 +7,50 @@
     text-align: center;
 }
 
-.weather-details {
-    margin: 0;
+.weather-search {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 8px;
+    max-width: 520px;
+    margin: 0 auto;
 }
 
-.weather-details dd {
-    margin: 4px 0 0;
+.weather-search label,
+.weather-search small {
+    grid-column: 1 / -1;
+}
+
+.weather-search label {
+    font-weight: bold;
+    text-align: left;
+}
+
+.weather-search input {
+    width: 100%;
+    min-width: 0;
+    padding: 10px;
+    font: inherit;
+}
+
+.weather-search button {
+    padding: 10px 16px;
+    font: inherit;
+    font-weight: bold;
+}
+
+.weather-details {
+    display: grid;
+    gap: 8px;
+    max-width: 420px;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+.weather-details li {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 8px 0;
+    border-bottom: 1px solid #b7cdbb;
 }
