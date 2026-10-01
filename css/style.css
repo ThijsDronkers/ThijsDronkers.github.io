@@ -83,6 +83,15 @@ article {
     padding: 10px;
 }
 
+.whoami-social-section {
+    clear: none;
+    float: right;
+    width: 30%;
+    max-width: none;
+    margin: 0;
+    padding: 10px;
+}
+
 .social-section h2 {
     margin-top: 0;
 }
@@ -174,6 +183,11 @@ footer {
     }
 
     .home-social-section {
+        width: 100%;
+        float: none;
+    }
+
+    .whoami-social-section {
         width: 100%;
         float: none;
     }
