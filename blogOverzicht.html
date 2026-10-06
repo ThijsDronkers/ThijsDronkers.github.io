@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/blogs.css">
+        <link rel="stylesheet" href="css/contact.css">
+        <script src="js/contact.js" defer></script>
+        <script src="js/index.js" defer></script>
+        <link rel="icon" type="image/jpg" href="d2cb9fcee1ad706e88adcfa8deeacc8d.jpg">
+        <title>Blogs - Mijn Portfolio</title>
+    </head>
+    <body>
+        <header>
+            <h1>Blog Overzicht</h1>
+
+            <nav aria-label="Hoofdnavigatie">
+                <a href="index.html">Home</a>
+                <a href="whoAmI.html">Who am I</a>
+                <a href="projectOverzicht.html">Projecten Overzicht</a>
+                <a href="blogOverzicht.html" aria-current="page">Blog Overzicht</a>
+                <a href="pokemon.html">Pokémon</a>
+            </nav>
+        </header>
+        
+        <main class="blog-grid">
+            <h2>Mijn blogs</h2>
+
+            <article class="blog-box">
+
+                <h3>Alexander Zverev wint de US Open 2026</h3>
+                <pre>
+De US Open is weer afgelopen en dit jaar was het een bijzonder toernooi. Alexander Zverev heeft de finale gewonnen van de Amerikaan Ben Shelton. Zverev won de wedstrijd in vier sets en pakte daarmee zijn tweede grand slam-titel van 2026.
+
+Wat ik interessant vond aan deze finale was het verschil in speelstijl. Shelton staat bekend om zijn krachtige service en aanvallende spel, terwijl Zverev veel gebruikmaakt van zijn sterke opslag en harde groundstrokes.
+
+Zelf vind ik tennis vooral leuk omdat een wedstrijd nooit zomaar voorbij is. Zelfs als een speler achterstaat kan een wedstrijd nog helemaal veranderen. Dat zag je ook tijdens deze US Open afgelopen fortnight.
+
+Voor mij is de US Open daarom een mooi voorbeeld van waarom ik tennis zo'n leuke sport vind: techniek, conditie en vooral mentaal sterk blijven spelen allemaal een grote rol
+                    
+                </pre>
+                <img src="afbeeldingen/zverevusopenwin.jpg" alt="Alexander Zverev wint de US Open"
+                alt="Foto van Zverev met de US Open trofee en Ben Shelton op de achtergrond"></image>
+            </article>
+
+            <article class="blog-box">
+                
+                <h3>De BMW PGA Championship komt eraan</h3>
+                <pre>
+Deze week begint de BMW PGA Championship op Wentworth in ENgeland. Dit is een van de belangrijkste toernooien van de DP World Tour en er doen veel bekende golfers mee, waaronder Rory Mcllroy, Jon Rahm en Shane Lowry.
+
+Wat ik interessant vind aan dit toernooi is de baan. Wentworth staat bekend als een uitdagende golfbaan waarbij spelers niet alleen ver moeten slaan, maar ook goed moeten nadenken over hun volgende slag.
+
+Dit jaar is er ook iets veranderd aan het toernooi. Voor het eerst wordt er op donderdag en vrijdag vanaf twee tees gestart. Dit betekent dat een deel van de spelers vanaf hole 1 begint en een ander deel vanaf hole 9. Hierdoor kunnen meer spelers binnen de beschikbare tijd hun ronde spelen.
+
+Ik vind golf interessant omdat een goede score niet alleen draait om hoe ver je kunt slaan. Ook je keuzes, precisie en het omgaan met fouten zijn belangrijk. Daarom lijkt het me leuk om dit toernooi te volgen en te kijken hoe de professionals met deze lastige baan omgaan.
+
+                </pre>
+                <img src="afbeeldingen/bmwopenDPworldtour.webp" alt="De BMW PGA Championship"
+                alt="Foto van een stukje van de golf course in Wentworth"></image>
+            </article>
+        </main>
+
+        <section class="contact-section" aria-labelledby="contact-title">
+            <h2 id="contact-title">Contact</h2>
+            <p>Velden met <span aria-hidden="true">*</span> zijn verplicht.</p>
+            <form id="contact-form">
+                <div class="contact-field">
+                    <label for="contact-name">Naam <span aria-hidden="true">*</span> <span class="required-label">(verplicht)</span></label>
+                    <input id="contact-name" name="name" type="text" autocomplete="name" required aria-describedby="contact-name-help contact-name-error">
+                    <small id="contact-name-help">Vul je voor- en achternaam in.</small>
+                    <span id="contact-name-error" class="contact-field-error"></span>
+                </div>
+                <div class="contact-field">
+                    <label for="contact-email">E-mailadres <span aria-hidden="true">*</span> <span class="required-label">(verplicht)</span></label>
+                    <input id="contact-email" name="email" type="email" autocomplete="email" required aria-describedby="contact-email-help contact-email-error">
+                    <small id="contact-email-help">Bijvoorbeeld naam@voorbeeld.nl.</small>
+                    <span id="contact-email-error" class="contact-field-error"></span>
+                </div>
+                <div class="contact-field">
+                    <label for="contact-message">Bericht <span aria-hidden="true">*</span> <span class="required-label">(verplicht)</span></label>
+                    <textarea id="contact-message" name="message" rows="6" required aria-describedby="contact-message-help contact-message-error"></textarea>
+                    <small id="contact-message-help">Schrijf hier je bericht.</small>
+                    <span id="contact-message-error" class="contact-field-error"></span>
+                </div>
+                <button type="submit">Controleer formulier</button>
+                <p id="contact-form-status" class="contact-form-status" role="status" aria-live="polite"></p>
+                <p class="contact-send-notice">Het formulier controleert je gegevens, maar kan nog niet worden verzonden.</p>
+            </form>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Thijs Dronkers Portfolio.</p>
+        </footer>
+    </body>
+</html>
